@@ -1,0 +1,34 @@
+<html>
+	<h3>
+		Weather Information System 
+	</h3>
+	<body>
+	<p>
+		<form action="result.php" method="get">
+		<br/>	
+		WaitTime:
+		<input type="text" name="wait_Time"/>
+		(in seconds)
+		<br />
+		City:
+		<input type="text" name="City"/>
+		(please put City like this format:Lisboa)
+		<br />
+		Date:
+		<input type="text" name="Date">
+		(please put date like this format:20121025)
+		<br />
+		You can choose one of them.
+		<br />
+		<input type="radio" name="subject" value="MinTemperature">min Temperature<br>
+		<input type="radio" name="subject" value="MaxTemperature">maxTemperature<br>
+		<input type="radio" name="subject" value="AverageTemperature">avgTemperature<br>
+		<input type="radio" name="subject" value="MinHumidity">minHumidity<br>
+		<input type="radio" name="subject" value="MaxHumidity">maxHumidity<br>
+		<input type="radio" name="subject" value="AverageHumidity">avgHumidity<br>
+		<input type="radio" name="subject" value="TotalRainfall">totalRainfall<br>
+		<input type="submit">
+		</form>
+	</p>
+	</body>
+</html>
